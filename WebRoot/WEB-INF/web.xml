@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>s01</description>
+    <display-name>s01</display-name>
+    <servlet-name>s01</servlet-name>
+    <servlet-class>s01</servlet-class>
+  </servlet>
+  <servlet>
+    <description>s02</description>
+    <display-name>s02</display-name>
+    <servlet-name>s02</servlet-name>
+    <servlet-class>s02</servlet-class>
+  </servlet>
+  <servlet>
+    <description>s02</description>
+    <display-name>s02</display-name>
+    <servlet-name>s03</servlet-name>
+    <servlet-class>s03</servlet-class>
+  </servlet>
+  <servlet>
+    <description>s04</description>
+    <display-name>s04</display-name>
+    <servlet-name>s04</servlet-name>
+    <servlet-class>s04</servlet-class>
+  </servlet>
+  <servlet>
+    <description>s05</description>
+    <display-name>s05</display-name>
+    <servlet-name>s05</servlet-name>
+    <servlet-class>s05</servlet-class>
+  </servlet>
+  <servlet>
+    <description>s06</description>
+    <display-name>s06</display-name>
+    <servlet-name>s06</servlet-name>
+    <servlet-class>s06</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>chain</servlet-name>
+    <servlet-class>chain</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>s01</servlet-name>
+    <url-pattern>/s01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>s02</servlet-name>
+    <url-pattern>/s02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>s03</servlet-name>
+    <url-pattern>/s03</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>s04</servlet-name>
+    <url-pattern>/s04</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>s05</servlet-name>
+    <url-pattern>/s05</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>s06</servlet-name>
+    <url-pattern>/s06</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chain</servlet-name>
+    <url-pattern>/chain</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
